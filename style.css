@@ -45,7 +45,11 @@ nav a {
   align-items: center;
   height: 500px;
 }
-
+.banner {
+  height: 260px;
+  width: 390px;
+  overflow: hidden;
+}
 .btn {
   background-color: #fff;
   border: none;
