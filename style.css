@@ -45,6 +45,20 @@ nav a {
   align-items: center;
   height: 500px;
 }
+#input {
+  width: 35em;
+  height: 3em;
+  padding: 2px 50px;
+  background-color: rgb(241, 241, 241);
+  border: none;
+  border-radius: 5px;
+}
+#input::placeholder {
+  font-weight: bold;
+}
+#input:focus {
+  outline: none;
+}
 .banner {
   height: 260px;
   width: 390px;
@@ -97,6 +111,7 @@ nav a {
   padding: 10px;
   text-align: center;
   width: 300px;
+  border-radius: 16px;
 }
 
 .item img {
